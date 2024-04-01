@@ -1,0 +1,66 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#userDirectory {
+    width: 1000px;
+    margin: 1rem .5rem;
+    padding: 1rem;
+    background-color: rgb(60, 60, 200);
+    border-radius: 1rem;
+    color: seashell;
+    box-shadow: 0 0 24px 21px rgba(0, 0, 0, 0.3);
+}
+#userTable {
+    margin: 1rem 0;
+}
+ #userTable img {
+    width: 40px;
+ }
+ #userTable th {
+    text-align: left;
+ }
+ #filterUsers {
+    padding: .5rem 1rem;
+ }
+ h1 {
+    text-align: center;
+    vertical-align: middle;
+ }
+ input {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    max-width: 100%;
+    outline: none;
+    overflow: hidden;
+    padding: 0 .75em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 7em;
+ }
+ input:focus {
+    background: linear-gradient(gold, hotpink);
+    color: snow;
+ }
+ input:active {
+    background: linear-gradient(hotpink, gold);
+    color: blanchedalmond;
+ }
+
+ ::placeholder {
+    color: black;
+ }
+ tbody {
+    text-align: center;
+    padding-left: 5em;
+ }
+ button:hover {
+   background-color: #45a049;
+}
+thead {
+   color: yellow;
+   text-align: center;
+   padding-left: 5em;
+   font-size: x-large;
+   gap: 30px;
+}
